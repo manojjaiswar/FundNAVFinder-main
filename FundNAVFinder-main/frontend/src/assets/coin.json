@@ -1,0 +1,23 @@
+{
+    "data" : [
+        {"id":"cardano","symbol":"ADA"},
+        {"id":"polkadot","symbol":"DOT"},
+        {"id":"litecoin","symbol":"LTC"},
+        {"id":"eos","symbol":"EOS"},
+        {"id":"stellar","symbol":"XLM"},
+        {"id":"bitcoin-cash","symbol":"BCH"},
+        {"id":"zcash","symbol":"ZEC"},
+        {"id":"dash","symbol":"DASH"},
+        {"id":"bitcoin-cash-sv","symbol":"BSV"},
+        {"id":"ethereum-classic","symbol":"ETC"},
+        {"id":"dai","symbol":"MCDAI"},
+        {"id":"tether-gold","symbol":"XAUT"},
+        {"id":"wrapped-dgld","symbol":"WDGLD"},
+        {"id":"tezos","symbol":"XTZ"},
+        {"id":"solana","symbol":"SOL"},
+        {"id":"ripple","symbol":"XRP"},
+        {"id":"tron","symbol":"TRX"},
+        {"id":"dogecoin","symbol":"DOGE"},
+        {"id":"usdx","symbol":"USDX"}
+    ]
+}

@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+
+  plutus-web:
+    image: localhost:5000/plutus-web:latest
+    container_name: 'plutus-web'
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+
+  dummycont:
+    image: localhost:5000/dummycont:latest
+    container_name: 'dummycont'
+    build:
+      context: .
+      dockerfile: src/dummycont/Dockerfile
+
+  plutus-api:
+    image: localhost:5000/plutus-api:latest
+    container_name: 'plutus-api'
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+  verdaccio:
+    image: verdaccio/verdaccio
+    container_name: 'verdaccio'
+    restart: always
+  haproxy:
+    image: haproxy
+    container_name: haproxy
+    restart: always

@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "eth-sig-util": "^3.0.1",
+    "ethereumjs-util": "^7.1.3",
+    "express": "^4.17.1",
+    "flatted": "^3.2.5",
+    "generate-password": "^1.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "sib-api-v3-sdk": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
